@@ -14,6 +14,7 @@ namespace EmpWageComputation
             empWageComputation.CheckEmpFullOrPartTime();
             empWageComputation.UsingSwitchStatement();
             empWageComputation.MonthWage();
+            empWageComputation.MonthWageHour();
         }
     }
 }
