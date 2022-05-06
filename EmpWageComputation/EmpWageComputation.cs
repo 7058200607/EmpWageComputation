@@ -12,6 +12,7 @@ namespace EmpWageComputation
         int WAGE_PER_HOUR = 20;
         int FULL_DAY_HOUR = 8;
         int PART_TIME_HOUR = 4;
+        int Total_Day= 20;
         bool IsPresent;
         bool IsFullTime;
         Random generateNum = new Random();
@@ -92,5 +93,27 @@ namespace EmpWageComputation
             }
         }
 
+        public void MonthWage() 
+        {
+            int num = generateNum.Next(0, 2);
+            int monthWage;
+            int PartTimeSalary;
+            switch (num)
+            {
+                case 1:
+                    monthWage = Total_Day * WAGE_PER_HOUR * FULL_DAY_HOUR;
+                    Console.WriteLine("Monthly Wage of Full Employee is {0}", monthWage);
+                    break;
+                case 2:
+                    PartTimeSalary = Total_Day * WAGE_PER_HOUR * PART_TIME_HOUR;
+                    Console.WriteLine("Part Time Wage is {0}", PartTimeSalary);
+                    break;
+                default:
+                    Console.WriteLine("Employee is Absent");
+                    break;
+            }
+         
+           
+        }
     }
 }

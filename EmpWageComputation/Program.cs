@@ -13,7 +13,7 @@ namespace EmpWageComputation
             empWageComputation.CalcEmpDailyWage();
             empWageComputation.CheckEmpFullOrPartTime();
             empWageComputation.UsingSwitchStatement();
-
+            empWageComputation.MonthWage();
         }
     }
 }
