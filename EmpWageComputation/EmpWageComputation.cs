@@ -9,24 +9,43 @@ namespace EmpWageComputation
 
     public class EmpWageComputation
     {
+        int WAGE_PER_HOUR = 20;
+        int FULL_DAY_HOUR = 8;
         bool IsPresent;
-
+        bool IsFullTime;
+        bool PART_TIME_HOUR;
+        Random generateNum = new Random();
         public void CheckEmpIsPresentOrNot()
         {
 
-            Random generateNum = new Random();
             int num = generateNum.Next(0, 2);
             if (num == 1)
             {
-                IsPresent = true;
                 Console.WriteLine("Employee is Present ");
             }
             else
             {
-                IsPresent = false;
                 Console.WriteLine("Employee is Absent");
+
             }
+        }
+        public void CalcEmpDailyWage()
+        {
+            int empDailyWage;
+
+            if (IsPresent && IsFullTime)
+            {
+                empDailyWage = WAGE_PER_HOUR * FULL_DAY_HOUR;
+                Console.WriteLine("Employee Daily Wage is ", + empDailyWage);
+            }
+            else if (IsPresent && !IsFullTime)
+            {
+                empDailyWage = WAGE_PER_HOUR * FULL_DAY_HOUR;
+
+                Console.WriteLine("Employee Daily Wage is {0}", +empDailyWage);
+
+            }
+
         }
     }
 }
-

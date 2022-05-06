@@ -10,6 +10,10 @@ namespace EmpWageComputation
 
             EmpWageComputation empWageComputation = new EmpWageComputation();
             empWageComputation.CheckEmpIsPresentOrNot();
+            empWageComputation.CalcEmpDailyWage();
+
+
+
         }
     }
 }
