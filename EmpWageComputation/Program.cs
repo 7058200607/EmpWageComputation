@@ -12,7 +12,7 @@ namespace EmpWageComputation
             empWageComputation.CheckEmpIsPresentOrNot();
             empWageComputation.CalcEmpDailyWage();
             empWageComputation.CheckEmpFullOrPartTime();
-
+            empWageComputation.UsingSwitchStatement();
 
         }
     }

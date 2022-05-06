@@ -64,5 +64,33 @@ namespace EmpWageComputation
 
 
         }
+        //using Switch statement
+        public void UsingSwitchStatement() 
+        {
+            int num = generateNum.Next(0, 2);
+            int empDailyWage;
+            switch (num)
+            { 
+                case 0:
+                    Console.WriteLine("Employee is Present ");
+                    empDailyWage = WAGE_PER_HOUR * FULL_DAY_HOUR;
+                    Console.WriteLine("Employee Daily Wage is ", +empDailyWage);
+                    break;
+
+                case 1:
+
+                    Console.WriteLine("Part Time Employee ");
+                    empDailyWage = WAGE_PER_HOUR * FULL_DAY_HOUR;
+                    Console.WriteLine("Employee Daily Wage is {0}", +empDailyWage);
+                    break;
+               
+                default:
+
+                    Console.WriteLine("Employee is Absent");
+                    break;
+
+            }
+        }
+
     }
 }
