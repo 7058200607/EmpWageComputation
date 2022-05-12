@@ -1,0 +1,15 @@
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\bin\Debug\net6.0\EmpWageComputation.exe
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\bin\Debug\net6.0\EmpWageComputation.deps.json
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\bin\Debug\net6.0\EmpWageComputation.runtimeconfig.json
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\bin\Debug\net6.0\EmpWageComputation.dll
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\bin\Debug\net6.0\EmpWageComputation.pdb
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\obj\Debug\net6.0\EmpWageComputation.csproj.AssemblyReference.cache
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\obj\Debug\net6.0\EmpWageComputation.GeneratedMSBuildEditorConfig.editorconfig
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\obj\Debug\net6.0\EmpWageComputation.AssemblyInfoInputs.cache
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\obj\Debug\net6.0\EmpWageComputation.AssemblyInfo.cs
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\obj\Debug\net6.0\EmpWageComputation.csproj.CoreCompileInputs.cache
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\obj\Debug\net6.0\EmpWageComputation.dll
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\obj\Debug\net6.0\refint\EmpWageComputation.dll
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\obj\Debug\net6.0\EmpWageComputation.pdb
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\obj\Debug\net6.0\EmpWageComputation.genruntimeconfig.cache
+D:\vrushali\bridgelabz\EmpWageComputation\EmpWageComputation\obj\Debug\net6.0\ref\EmpWageComputation.dll
